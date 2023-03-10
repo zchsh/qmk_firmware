@@ -22,6 +22,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 //#define USE_MATRIX_I2C
 
+/*
+ * Use SPLIT_USB_DETECT for left-right half detection.
+ * I'm loading onto an Elite-C controller that seems to require this.
+ */
+#define SPLIT_USB_DETECT
+
 /* Select hand configuration */
 
 #define MASTER_LEFT
