@@ -17,6 +17,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 To compile:
 qmk compile -kb <keyboard> -km <keymap>
 qmk compile -kb crkbd -km zchsh
+
+To flash:
+Use QMK toolbox. Install with brew install qmk-toolbox
 */
 
 #include QMK_KEYBOARD_H
