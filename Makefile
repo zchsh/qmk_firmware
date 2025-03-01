@@ -428,3 +428,8 @@ distclean: clean
 	echo -n 'Deleting *.bin, *.hex, and *.uf2 ... '
 	rm -f *.bin *.hex *.uf2
 	echo 'done.'
+
+.PHONY: zchsh
+zchsh:
+	qmk compile -kb crkbd -km zchsh
+	mv crkbd_rev1_zchsh.hex ~/Desktop

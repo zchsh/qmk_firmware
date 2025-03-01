@@ -42,11 +42,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [1] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_TRNS, XXXXXXX, KC_MRWD, KC_MFFD, KC_MPLY, KC_BRIU,                      KC_KB_VOLUME_UP, KC_KB_VOLUME_DOWN, KC_NO, KC_NO, KC_NO, KC_TRNS,
+      KC_TRNS, XXXXXXX, KC_MRWD, KC_MFFD, KC_MPLY, KC_BRIU,                      KC_MUTE, KC_KB_VOLUME_DOWN, KC_KB_VOLUME_UP, KC_NO, KC_NO, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_TRNS, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_BRID,                      KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT,XXXXXXX, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_TRNS, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_MUTE, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_TRNS,
+      KC_TRNS, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_TRNS,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_TRNS, KC_TRNS, KC_TRNS,    XXXXXXX, XXXXXXX, KC_SPC
                                       //`--------------------------'  `--------------------------'
